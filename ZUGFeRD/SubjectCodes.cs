@@ -185,6 +185,20 @@ namespace s2industries.ZUGFeRD
         ///
         /// Note contains information mutually defined by trading partners.
         /// </summary>
-        ZZZ
+        ZZZ,
+
+        /// <summary>
+        /// Delivery instructions
+        ///
+        /// [4492] Instructions regarding the delivery of the cargo.
+        /// </summary>
+        DIN,
+
+        /// <summary>
+        /// Consignment routing
+        ///
+        /// Information on routing of the consignment.
+        /// </summary>
+        AIN
     }
 }
